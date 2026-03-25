@@ -2,8 +2,8 @@
 
 A real-time IoT environmental monitoring system that collects temperature and humidity data from an Arduino-connected DHT11 sensor, logs it to CSV, detects anomalies, and visualizes trends in an interactive dashboard.
 
-![Dashboard](dashboard.png)
-> *Dashboard screenshot — add yours here once you run `dashboard.py`*
+![Dashboard](PyMon/dashboard.png)
+
 
 ---
 

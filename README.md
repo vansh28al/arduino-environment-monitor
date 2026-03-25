@@ -1,4 +1,4 @@
-# Arduino Environmental Monitor 🌡️
+# Arduino Environmental Monitor
 
 A real-time IoT environmental monitoring system that collects temperature and humidity data from an Arduino-connected DHT11 sensor, logs it to CSV, detects anomalies, and visualizes trends in an interactive dashboard.
 

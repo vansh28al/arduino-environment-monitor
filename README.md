@@ -66,17 +66,25 @@ arduino-environmental-monitor/
    **pandas**
    **matplotlib.pyplot**
    **pyserial**
-
+   **sklearn.linear_model**
+   **sklearn.model_selection**
+   **sklearn.metrics**
+   **numpy**
 
 ## How Anomaly Detection Works
 
 Each reading is compared against the mean and standard deviation of all collected data. Any reading that deviates by more than **2 standard deviations** is flagged as an anomaly and marked with an `X` on the dashboard.
 
+## ML Prediction Model
+
+Trained a linear regression model on sensor data to predict temperature 
+MAE = 0.676 C
+![Dashboard](PyMon/prediction.png)
 
 ## Possible Future Improvements
 
 - Add a live-updating dashboard 
-- Train an ML model to predict future temperature trends
+- Train an ML model to predict future temperature trends - **DONE**
 - Add email/SMS alerts when anomalies are detected
 
 ---
